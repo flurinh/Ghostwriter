@@ -3,7 +3,6 @@
 
 # Import
 import cv2
-from cv2 import *
 import os
 import glob
 import sys
@@ -15,7 +14,6 @@ import numpy as np
 import time
 import requests
 import pickle
-import tensorflow as tf
 from random import randint
 
 def letters_to_ascii(list):

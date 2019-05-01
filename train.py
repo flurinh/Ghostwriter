@@ -12,6 +12,7 @@ if torch.cuda.is_available():
     model.cuda()
 else:
     print("CUDA unavailable, using CPU!")
+
 """
 for epoch in range(NUMBER_EPOCHS):
     training_data = batch_generator(train_data, batch_size=BATCH_SIZE)
